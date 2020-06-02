@@ -5,7 +5,7 @@ Asmeninės saulės jėgainės reklaminiai skaičiavimai yra išpūstai nerealist
 
 Čia bandymas sukurti modelį, kuris atspindėtų kai kuriuos praktinius netikrumus. Suprantama, modelis netobulas, bet tikiuosi bus kiek naudingesnis nei paprastieji pardaviminiai montuotojų paskaičiavimai.
 
-Įdomu išgirsti jūsų pastebėjimus ir pamastymus, kaip iš tikro turėtume vertinti, kokius aspektus įskaičiuoti į tokį modelį.
+Įdomu išgirsti jūsų pastebėjimus ir pamastymus, kaip iš tikro turėtume vertinti, kokius aspektus įskaičiuoti į tokį modelį. Komentuokite, rašykite pastebėjimus, padarykime geresnį modelį.
 
 Svarbu turėti omeny, kad saulės elementų amžius ilgas, tačiau inverterio darbo laikas ribotas. Šiame modelyjė nėra įdėtas inverterio eitimas - remontas, turbūt būtų prasminga planuoti naujo inverterio kaštus bent jau po penkiolikos metų darbo.
 
