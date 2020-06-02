@@ -3,10 +3,16 @@ Saulės jėgainės namų ūkiui investicijų gražos skaičiavimas.
 
 Asmeninės saulės jėgainės reklaminiai skaičiavimai yra išpūstai nerealistiniai, neatspindintys tikros finansinės naudos.
 
-Čia bandymas sukurti modelį, kuris atspindėtų kai kuriuos praktinius netikrumus.
+Čia bandymas sukurti modelį, kuris atspindėtų kai kuriuos praktinius netikrumus. Suprantama, modelis netobulas, bet tikiuosi bus kiek naudingesnis nei paprastieji pardaviminiai montuotojų paskaičiavimai.
+
+Įdomu išgirsti jūsų pastebėjimus ir pamastymus, kaip iš tikro turėtume vertinti, kokius aspektus įskaičiuoti į tokį modelį.
+
+Svarbu turėti omeny, kad saulės elementų amžius ilgas, tačiau inverterio darbo laikas ribotas. Šiame modelyjė nėra įdėtas inverterio eitimas - remontas, turbūt būtų prasminga planuoti naujo inverterio kaštus bent jau po penkiolikos metų darbo.
+
+Reguliatoriaus strategija dėl "pasaugojimo" kainos yra bneaiški ir gali keistis neprognozuojamai. Tad čia dar vienas ženklus netikrumas.
+
 
 Kai kurie paaiškinimai:
-
 
 # "Teorinė gamyba įvertinant 1% efektyvumo praradimą per metus (kWh/metai)"
 - nuo penktų metų įskaičiuotas 1 procento efektyvumo mažėjimas. Pasireguliuokite pagal konkrečius elementus.
@@ -33,6 +39,8 @@ Parametras nustatomas langelio "Metinis suvartojimo didejimas" keitimu. Reikia t
 # "Sunaudota energija viduje (kWh)"
 sunaudotas energijos kiekis momentiškai, t.y. nepriduodant į tinklą. Namų automatizavimas, smart grid įrenginiai, elektrinis vandens šildymas pertekline energija, baterijos, tie įrenginiai didina momentinį vartojimą.  Parametras nustatomaskeičiant laukelį " % energijos suvartojamas tiesiogiai, nesaugant tinkle" arba tiesiogiai langeliuose.
 
+Kiek matau iš diskusijų, dėl nevienodo fazių apkrovimo net jei gamianme dieną daug elektros gali būti, kad tuo pačiu ją naudojame. T.y. viena fazė yra apkrauta per daug, todėl jai saulės neužtenka, o kitos fazės tiekia energiją į tinklą. Tokiu atveju inverteris balansuojantis fazes papildomai padidins momentinį vartojimą.
+
 # "Į tinklą priduotos energijos kiekis, kWh"
 nesunaudotos energijos kiekis priduotas į tinklą.
 
@@ -41,6 +49,12 @@ tai faktiškai sugeneruotas kwh minus realus sunaudojimas. Jei skaičius teigiam
 
 # "Reikalingos energijos dapirkimas, EUR"
 kiek EUR kainavo dapirktos kwh
+
+# Vidutinė dabar naudojamos el. kaina (ct)
+Kadangi dabar dažniausiai didesnis elektros vartotojas naudojasi dviejų laikų skaitliuku (o tapus gaminančiu-vartotoju bus pervestas į vieno tarifo skaitliuką), tai šiame stulpelyje rašome dabar faktinę naudojamos elektros kwh kainą (išvestas iš to kiek naudojate vidutiniškai dienos ir nakties). Jei turite vieno tarifo skaitiklį, tai čia bus tiesiog vieno to tarifo kwh kaina
+
+# Vienos fazės energijos kaina(ct)
+vieno tarifo kwh kaina, į kurį ir būsite pervesti
 
 # SCENARIJAI
 Scenarijuose turime du stulpelius - metų stulpelį (be spalvos) ir akumuliuotą stulpelį (spalvotas). Akumuliuotas rodo suminį taupymą ir yra raudonas iki taupymai viršija investuotą į jėgainę sumą.
