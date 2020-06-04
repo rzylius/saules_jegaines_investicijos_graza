@@ -9,7 +9,7 @@ Asmeninės saulės jėgainės reklaminiai skaičiavimai yra išpūstai nerealist
 
 Svarbu turėti omeny, kad saulės elementų amžius ilgas, tačiau inverterio darbo laikas ribotas. Šiame modelyjė nėra įdėtas inverterio eitimas - remontas, turbūt būtų prasminga planuoti naujo inverterio kaštus bent jau po penkiolikos metų darbo.
 
-Reguliatoriaus strategija dėl "pasaugojimo" kainos yra bneaiški ir gali keistis neprognozuojamai. Tad čia dar vienas ženklus netikrumas.
+Reguliatoriaus strategija dėl "pasaugojimo" kainos yra neaiški ir gali keistis neprognozuojamai. Tad čia dar vienas ženklus netikrumas.
 
 
 Kai kurie paaiškinimai:
