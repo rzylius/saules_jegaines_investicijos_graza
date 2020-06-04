@@ -21,7 +21,7 @@ Kai kurie paaiškinimai:
 yra tik išvestinis dydis, skaičiuojamas iš ankstesnio stulpelio duomenų. Tad jis tik pademonstravimui efektyvumo, jo nereikia liesti.
 
 # "Atsitiktinis produkcijos svyravimo dydis (-20 iki +20%)"
-faktiškai sugeneruotas elektros kiekis per mestus priklausys nuo oro sąlygų ir, anot praktikų, gali kisti +- 20 procentų. Tad modeliuojame šiame stulpelyje atsitiktinį svyravimą plius minus 20 proc.
+faktiškai sugeneruotas elektros kiekis per mestus priklausys nuo oro sąlygų ir, anot praktikų, gali kisti +- 20 procentų. Tad modeliuojame šiame stulpelyje atsitiktinį svyravimą plius minus 20 proc. Excelio yoatybė - šie atsitiktiniai skaičiai persiskaičiuoja kiekvieną kartą, kai ką nors pakeičiate lentelėje, ar paspaudžiate "recalculate".
 
 # "Sugeneruotas el. kiekis, kWh" 
 suskaičiuojamas faktinis sugeneruotas kiekis (t.y teorinė gamyba plius atsitiktinė +-20 proc".
